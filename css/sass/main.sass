@@ -3,13 +3,15 @@ body
 	font-size: 20px
 	min-width: 320px
 	position: relative
+a
+	cursor: pointer
 .hidden
 	display: none
 .adress_wrap
 	background-image: url(../img/geotag.png)
 	background-repeat: no-repeat
 	background-position: left center
-	padding: 27px 0 26px 50px
+	padding: 20px 0 20px 50px
 	color: #d12f22
 	font-size: 32px
 	text-decoration: none
@@ -20,51 +22,346 @@ body
 	font-size: 22px
 	text-decoration: underline
 .top_line
-	background-color: rgba(36, 36, 36, .86)
-	border-bottom: 1px solid rgba(255, 255, 255, .18)
-.logo_col
-	position: relative
-	.logo_wrap
-		position: absolute
-		top: 22px
-		left: 50%
-		margin-left: -85px
+	min-height: 97px
+	background-color: rgba(0, 0, 0, .56)
+	box-shadow: rgba(255, 255, 255, .4) 0 0 0 1px
+	position: absolute
+	top: 0
+	width: 100%
+	strong
+		color: #d12f22
+		display: block
+		font-weight: normal
+		text-transform: uppercase
+		font-size: 31px
+	a
+		color: #fff
+		font-size: 21px
+		border-bottom: #fff dashed 1px
+		cursor: pointer
+		transition: all .25s ease
+	a:hover
+		border-bottom: transparent 1px solid
+a.logo
+	border-bottom: transparent
+	position: absolute
+	top: 20px
 .phone_wrap
-	padding: 27px 0 26px
-	text-align: right
-	color: #d12f22
-	font-size: 32px
-	text-decoration: none
+	display: block
+	font-weight: normal
 	text-transform: uppercase
+	font-size: 31px
+	text-align: right
 	line-height: 26px
-	.white_phone
+	color: #fff
+	padding: 20px 0 4px
+	strong
 		display: inline
-		color: #fff
-	span
-		text-decoration: underline
-		font-size: 22px
-		color: #fff
+.call_back
+	text-align: right
+	display: block
 .head_wrap
 	background-image: url(../img/head_bg.png)
-	background-size: cover
-	background-position: left top
+	min-height: 644px
+	background-repeat: repeat-x
+	background-position: top center
+	position: relative
 	h1
+		margin-top: 175px
 		text-align: center
 		font-size: 40px
 		color: #fff
 		text-transform: uppercase
-		padding: 0
-		margin: 0
-		padding-top: 75px
-		margin-bottom: 370px
 		text-shadow: 0 2px 0 rgba(0, 0, 0, .55)
 button
 	color: #fff
 	background-color: #d12f22
 	padding: 17px 35px 14px
-	
-	
 	border: 0
 	border-bottom: 3px solid
 	border-color: #ac160a
-.head_btn_wrap
+button:hover
+	background-color: #cc3600
+	box-shadow: 1px 1px #000
+button:active
+	background-color: tomato
+	margin-top: 2px
+	box-shadow: 0 0
+.button_block
+	height: 93px
+	position: absolute
+	bottom: 40px
+	left: 10%
+
+.photo_repair
+	float: left
+	color: #fff
+	background-color: #d12f22
+	border: 0
+	border-bottom: 3px solid
+	border-color: #ac160a
+	background-image: url(../img/photo_icon.png)
+	background-repeat: no-repeat
+	background-position: 10px center
+	margin-right: 20px
+	text-align: left
+	padding: 13px 30px 10px 65px
+	line-height: 18px
+	cursor: pointer
+.photo_repair:hover
+	background-color: #cc3600
+	box-shadow: 1px 1px #000
+.photo_repair:active
+	background-color: tomato
+	margin-top: 2px
+	box-shadow: 0 0 
+.menu_wrap
+	box-shadow: rgba(255, 255, 255, .1) 0 -3px 0
+	background-color: #242424 
+	border-left: 0
+	border-right: 0
+.main_menu
+	ul
+		margin: 0
+		padding: 0
+		list-style-type: none
+		background-color: #444
+		li
+			float: left
+			a
+				letter-spacing: 2px
+				display: block
+				padding: 30px 30px 27px 50px
+				text-transform: uppercase
+				color: #fff
+				border-right: 1px solid #3d3d3d
+				background-color: #444
+			a:hover
+				background-color: grey
+			.active
+				background-color: #050505
+			a.active:hover
+				background-color: black
+			.main_item
+				background-image: url(../img/home_icon.png)
+				background-repeat: no-repeat
+				background-position: 15px center
+			.about_item
+				background-image: url(../img/about_icon.png)
+				background-repeat: no-repeat
+				background-position: 15px center
+			.price_item
+				background-image: url(../img/ruble_icon.png)
+				background-repeat: no-repeat
+				background-position: 15px center
+			.works_item
+				background-image: url(../img/car_icon.png)
+				background-repeat: no-repeat
+				background-position: 15px center
+			.partners_item
+				background-image: url(../img/partners_icon.png)
+				background-repeat: no-repeat
+				background-position: 15px center
+			.contacts_item
+				background-image: url(../img/menu_geo.png)
+				background-repeat: no-repeat
+				background-position: 15px center
+.warranty_wrap
+	border: 3px solid #fff
+	border-radius: 3px
+	padding: 8px 7px 6px 8px
+	margin-top: 15px
+	font-family: "BebasNeueRegular", sans-serif
+	font-size: 16px
+	color: #fff
+	text-transform: uppercase
+	line-height: 18px
+	.year
+		float: left
+		padding: 12px 10px 0 4px
+		font-family: "BebasNeueRegular", sans-serif
+		font-size: 24px
+		span
+			font-size: 32px
+section
+	h2
+		margin: 0
+		font-family: "BebasNeueRegular", sans-serif
+		font-size: 40px
+		padding-top: 70px
+		text-align: center
+		letter-spacing: 1.4px
+.services
+	background-color: #191919
+	h2
+		color: #c9c9c9
+		margin-bottom: 50px
+
+		.white_head
+			color: #fff
+		span
+			color: #ac160a
+.left_line
+	display: inline-block
+	margin-right: 20px
+	width: 50px
+	height: 31px
+	background-image: url(../img/lines.png)
+	background-repeat: no-repeat
+	background-position: left center
+.right_line
+	display: inline-block
+	margin-left: 20px
+	width: 50px
+	height: 31px
+	background-image: url(../img/lines.png)
+	background-repeat: no-repeat
+	background-position: RIGHT center
+.items
+	text-align: center
+	position: relative
+.item_wrap
+	display: block
+	a
+		padding: 15px
+		height: 165px
+		border: 1px solid #353535
+		border-radius: 1px
+		font-family: "BebasNeueRegular", sans-serif
+		font-size: 20px
+		text-align: center
+		padding-top: 125px
+		display: block
+		color: #fff
+
+	.item_btm_wrap
+		margin-bottom: 15px
+		background-color: #212121
+		border: 1px solid #212121
+		color: #d12f22
+		display: block
+		height: 25px
+		line-height: 25px
+		text-align: center
+		background-repeat: no-repeat
+		background-position: center 35%
+	a.car_item
+		background-image: url(../img/car.png)
+		background-repeat: no-repeat
+		background-position: center 35%
+	a.wheel_item
+		background-image: url(../img/wheel.png)
+		background-repeat: no-repeat
+		background-position: center 35%
+	a.express_item
+		background-image: url(../img/express.png)
+		background-repeat: no-repeat
+		background-position: center 45%
+	a.apteka_item
+		background-image: url(../img/apteka.png)
+		background-repeat: no-repeat
+		background-position: center 35%
+	a.wrench_item
+		background-image: url(../img/wrench.png)
+		background-repeat: no-repeat
+		background-position: center 35%
+	a.plastic_item
+		background-image: url(../img/plastic.png)
+		background-repeat: no-repeat
+		background-position: center 40%
+.active_item
+	background-color: #2a2a2a
+	text-decoration: underline
+	.item_btm_wrap
+		background-color: #353535
+		border: 2px solid #353535
+		color: #fff
+.item_expand
+	color: #fff
+	font-family: "BebasNeueRegular", sans-serif
+	font-size: 20px
+	text-align: center
+	text-decoration: underline
+	margin: 0 17px 30px
+	background-color: #353535
+	padding: 20px 10px
+	display: block
+	position: absolute
+	top: 205px
+	left: 0
+.arrow_up 
+	width: 0 
+	height: 0 
+	border-left: 10px solid transparent
+	border-right: 10px solid transparent
+	border-bottom: 10px solid #353535
+.arrow_wrap
+	position: absolute
+	top: -9px
+	left: 98px
+	height: 10px
+.btn_wrap
+	text-align: center
+	padding-bottom: 30px
+
+.proffesional
+	h2
+		margin-bottom: 25px
+	p
+		font-family: "RobotoRegular", sans-serif
+		font-size: 14px
+		color: #050505
+		text-align: center
+		margin-bottom: 37px
+	.descr
+		margin-bottom: 37px
+		font-size: 16px
+		line-height: 22px
+.pic_item_wrap
+	position: relative
+	img
+		width: 100%
+	.red_line
+		display: block
+		height: 5px
+		width: 100%
+		position: absolute
+		background-color: red
+		z-index: 3
+.pro_items_wrap
+	padding: 45px 0 0 0
+	background-color: #d6d6d6
+.leave_msg
+	h2
+		padding: 0
+		text-align: left
+		display: inline-block
+		margin-top: 50px
+		margin-bottom: 35px
+	button
+		margin-top: 30px
+		float: right
+	p
+		margin: 0
+		margin-bottom: 15px
+		font-family: "RobotoCondensedRegular", sans-serif
+		font-size: 16px
+		color: #050505
+footer
+	padding: 35px 15px 45px
+	background-color: #2a2a2a
+	font-size: 20px
+	color: #fff
+	ul
+		list-style-type: none
+		margin: 0
+		padding: 0
+		li
+			float: left
+			padding-right: 20px
+			a
+				color: #fff
+				text-decoration: underline
+	img
+		float: right
+		

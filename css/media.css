@@ -1,0 +1,91 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+		.logo img{
+		width: 100px;
+	}
+	
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+.main_menu ul li a
+		{
+			font-size: 16px;
+			padding: 20px 12px 20px ;
+			padding-left: 40px;
+		}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+.main_menu ul li a
+		{
+			font-size: 16px;
+			padding-left: 40px;
+		}
+		.warranty_wrap {
+		font-size: 10px;
+
+	}
+	.warranty_wrap .year {
+		font-size: 12px;
+	}
+	.items a {
+		font-size: 14px;
+	}
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+	.main_menu ul li a {
+	font-size: 16px;
+	letter-spacing: 2px;
+	padding: 30px 30px 27px 50px;
+ }
+	.warranty_wrap {
+		font-size: 16px;
+
+	}
+	.items a {
+		font-size: 17px;
+	}
+	.warranty_wrap .year {
+		font-size: 18px;
+	}				
+}
